@@ -1,0 +1,13 @@
+// @@import "app/scss/vendor/bootstrap-sass/bootstrap-sass.gemspec"
+@@import "./vendor/font-awesome-4.6.3/scss/font-awesome.scss";
+
+$apt-default: ;
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: $app-default;
+}

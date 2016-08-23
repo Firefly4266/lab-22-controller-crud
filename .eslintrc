@@ -23,7 +23,7 @@
     "es6": true,
     "node": true,
     "browser": true,
-    "jasmine": true
+    "jasmine": true,
   },
   "globals": {
     "__API_URL__": false,

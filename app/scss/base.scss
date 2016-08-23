@@ -1,7 +1,7 @@
-// @@import "app/scss/vendor/bootstrap-sass/bootstrap-sass.gemspec"
-@@import "./vendor/font-awesome-4.6.3/scss/font-awesome.scss";
+@import "app/scss/vendor/bootstrap/stylesheets/_bootstrap.scss";
+@import "./vendor/font-awesome-4.6.3/scss/font-awesome.scss";
 
-$apt-default: ;
+$apt-default: #3395FF;
 
 html, body {
   width: 100%;

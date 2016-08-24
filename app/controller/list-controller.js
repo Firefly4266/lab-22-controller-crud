@@ -14,7 +14,6 @@ function ListController($log, $http) {
       'Content-Type': 'application json',
     },
   };
-
   this.createList = function(list){
     $log.debug('listCtrl.createList');
     $http.post(baseUrl, list, config)

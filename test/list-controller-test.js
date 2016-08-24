@@ -11,7 +11,11 @@ describe('testing list-controller', function() {
   it('testing createList', () => {
     let url = 'http://localhost:3000/api/list';
     let requestData = {name: 'example name'};
-    this.$httpBackend.expectPOST(url, requestData)
+    let headers = {
+      'Accept': 'application/json',
+      'Content-Type': 'application json',
+    };
+    this.$httpBackend.expectPOST(url, requestData, headers)
     .respond(200, {
       name: 'example name',
       _id: '123456',

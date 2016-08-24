@@ -1,7 +1,8 @@
-@import "app/scss/vendor/bootstrap/stylesheets/_bootstrap.scss";
+@import "./vendor/bootstrap/stylesheets/_bootstrap.scss";
 @import "./vendor/font-awesome-4.6.3/scss/font-awesome.scss";
 
-$apt-default: #3395FF;
+
+$app-default: #3395FF;
 
 html, body {
   width: 100%;

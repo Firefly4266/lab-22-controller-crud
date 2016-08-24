@@ -4,4 +4,6 @@ require('!!file?name=[name].[ext]!./html/index.html');
 require('./scss/base.scss');
 
 const angular = require('angular');
-const demoApp = angular.module('demoApp', []);
+angular.module('demoApp', []);
+
+require('./controller/list-controller.js');

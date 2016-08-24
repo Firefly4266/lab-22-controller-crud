@@ -41,18 +41,6 @@ module.exports = {
         },
       },
       {
-        test:/\.scss$/,
-        loader: ExtractText.extract('style', 'css!postcss!sass!'),
-      },
-      {
-        test: /\.js$/,
-        loader: 'babel',
-        exclude: /node_modules/,
-        query: {
-          presets: ['es2015'],
-        },
-      },
-      {
         test: /\.(jpg|gif)$/,
         loader: 'file?name=image/[hash]-[name].[text]',
       },

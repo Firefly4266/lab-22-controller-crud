@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Firefly4266/lab-22-controller-crud.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "jp",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Firefly4266/lab-22-controller-crud/issues"
@@ -32,8 +32,7 @@
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.0"
+    "webpack": "^1.13.2"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.8",
